@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
 .container{
     max-width: 1240px;
+    min-height: auto;
     margin-left: auto;
     margin-right: auto;
     background-color: #FFEFC7;
@@ -97,6 +98,46 @@ a{
     color: FFFFFF, 100%;
 }
 
+/* 麻將是什麼？簡介 */
+.aside{
+    max-width: 1240px;
+    min-height: 500px;
+    align-items: center;
+}
+.aside_title{
+    width: 1068px;
+    height: 480px;
+    background-color: #FFC773;
+    margin-left: 86px;
+    margin-top: 20px;
+}
+.aside_title_wrapping{
+    padding: 10px;
+    max-height: 35px;
+}
+.aside_title_text{
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 30px;
+    max-height: 35px;
+}
+.aside_article{
+    /* 設定框架 */
+    width: 990px;
+    height: 320px;
+    background-color: #FFEFC7;
+    border-radius: 50px;
+    margin-left: 34px;
+    /* 設定文字 */
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    line-height: 43px;
+    font-weight: 400;
+    padding-top: 70px;
+}
+
 /* 日本麻將簡介 */
 .intro{
     width: 1260px;
@@ -160,7 +201,7 @@ a{
 /* 頁腳設定 */
 .footer{
     margin: 0;
-    width: 1260px;
+    max-width: 1260px;
     max-height: 76px;
     background-color: #FFC773;
     position: relative;
