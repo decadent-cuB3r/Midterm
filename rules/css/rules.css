@@ -1,0 +1,91 @@
+h3{
+    margin: 0;
+}
+h2{
+    margin: 0;
+}
+/* 基本規則標題 */
+.rules_head{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.rules_head_line{
+    width: 430px;
+    height: 6px;
+    background: #FF8C4B;
+}
+.rules_head_text{
+    /* 設定外框 */
+    background: #FF8C4B;
+    border-radius: 30px;
+    width: 240px;
+    height: 80px;
+    /* 設定文字 */
+    color: white;
+    line-height: 80px;
+    text-align: center;
+}
+/* 基本規則 */
+.rules_basic{
+    display: flex;
+    justify-content: space-around;
+}
+/* 基本規則圖例 */
+.rules_basic_wrapper{
+    background: #FFC773;
+    border-radius: 30px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.rules_basic_text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    margin: 10px 0 10px 0;
+    color: #FF792E;
+}
+.rules_basic_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* 基本規則描述 */
+.rules_info_wrapper{
+    height: 400px;
+    width: 700px;
+    align-items: center;
+    justify-content: space-around;
+}
+.rules_info{
+    width: 700px;
+    height: 125px;
+    border-radius: 30px;
+    background-color: #FFC773;
+    margin: 0 0 12.5px 30px;
+    display: flex;
+}
+.rules_info_head{
+    min-width: 125px;
+    min-height: 125px;
+    font-family: 'Noto Sans', sans-serif;
+    color: #FF792E;
+    text-align: center;
+    line-height: 125px;
+    font-size: 36px;
+}
+.rules_info_text{
+    font-size: 20px;
+    color: #ffffff;
+    font-family: 'Noto Sans', sans-serif;
+    max-width: 560px;
+    line-height: 26px;
+    margin: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
