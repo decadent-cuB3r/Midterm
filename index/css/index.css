@@ -17,48 +17,46 @@ a{
     width: 1240px;
     height: 126px;
     background: #FFC773;
+    justify-content: space-between;
 }
 .LOGO{
     max-width: 290px;
     max-height: 126px;
 }
-.head_nav{
-    right: 0px;
-}
 .head_buttons{
     display: flex;
     margin-top: 38px;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-end;
 }
 .head_butt{
-    /* 設定大小 */
+    list-style-type: none;
     width: 178px;
     height: 58px;
-    
-    /* 設定邊框 */
-    border-radius: 50px;
-
-    /* 設定按鍵顏色 */
-    background: #FFEFC7;
-    
-    /* 設定字體位置 */
-    list-style-type: none;
-    text-align: center;
-    line-height: 58px;
-    margin-left: 10px;
 }
 .head_butt_text{
+    /* 文字設定 */
     font-family: 'Noto Sans TC', sans-serif;
     text-decoration: none;
     color: #FF792E;
-}
-.head_butt:hover{
-    background-color: #FF792E;
-    background: #FF792E;
-}    
+    /* 設定大小 */
+    width: 178px;
+    height: 58px;
+    padding: 15px 30px;
+    /* 設定邊框 */
+    border-radius: 50px;
+    /* 設定按鍵顏色 */
+    background-color: #FFEFC7;
+    /* 設定字體位置 */
+    text-align: center;
+    line-height: 58px;
+    margin-left: 10px;
+}   
 .head_butt_text:hover{
     color: #FFEFC7;
+    background-color: #FF792E;
 }
-
 /* 內文設定 */
 .image{
     position: relative;
