@@ -1,6 +1,6 @@
 .game{
     max-width: 1240px;
-    height: 1058px;
+    height: 1100px;
     background:  #FFEFC7;
 }
 .game_info{
@@ -8,6 +8,13 @@
     position: relative;
     width: 1240px;
     height: 81px;
+}
+.web_info{
+    display: inline-flex;
+    position: relative;
+    width: 1240px;
+    height: 81px;
+    top:125px;
 }
 .line{
     position: absolute;
@@ -49,7 +56,7 @@
     display: inline-flex;
     position: relative;
     width: 1240px;
-    height: 231px;
+    height: 321px;
 }
 .game_1{
     position: absolute;
@@ -66,8 +73,7 @@
     left: 0px;
     top: 0px;
 }
-.game2
-{
+.game2{
     position: absolute;
     left: 459px;
     top: 84px;
@@ -76,7 +82,7 @@
 }
 .game3{
     position: absolute;
-    width: 310px;
+    width: 321px;
     height: 321px;
 }
 .game_3{
@@ -86,4 +92,69 @@
     background-color: #fff;
     right: 89px;
     top: 84px;
+}
+.word1{
+    position: absolute;
+    width: 60px;
+    height: 35px;
+    left: 220px;
+    top: 420px;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FF792E;
+}
+.word2{
+    position: absolute;
+    width: 60px;
+    height: 35px;
+    left: 590px;
+    top: 420px;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FF792E;
+}
+.word3{
+    position: absolute;
+    width: 60px;
+    height: 35px;
+    right: 220px;
+    top: 420px;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FF792E;
+}
+.web_image{
+    display: inline-flex;
+    position: relative;
+    width: 1240px;
+    height: 321px;
+}
+.web1{
+    top: 214px;
+    left: 89px;
+}
+.web2{
+    top: 214px;
+}
+.web3{
+    top: 214px;
+    right: 89px;
+}
+.word4{
+    height: 34px;
+    width: 286px;
+    left: 145px;
+    top: 550px;
+}
+.word5{
+    height: 34px;
+    width: 286px;
+    left: 530px;
+    top: 550px;
+}
+.word6{
+    height: 34px;
+    width: 286px;
+    right: 145px;
+    top: 550px;
 }
