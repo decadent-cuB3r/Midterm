@@ -100,7 +100,7 @@ a{
 /* 日本麻將簡介 */
 .intro{
     width: 1260px;
-    height: 620px;
+    height: 550px;
     background-color: #FFEFC7;
 }
 .intro_line{
@@ -141,6 +141,12 @@ a{
     text-align: center;
     line-height: 70px;
     font-size: 28px;
+}
+.intro_INFO_article{
+    font-family: 'Noto Sans TC', sans-serif;
+    text-align: center;
+    line-height: 40px;
+    font-size: 24px;
 }
 /* 影片 */
 .video_wrapping{
