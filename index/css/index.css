@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+.container{
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFEFC7;
+}
+/* 我不喜歡A TAG有底線所以寫了這條 */
+a{
+    text-decoration: none;
+}
+
+/* 標題設定 */
+.header{
+    display: inline-flex;
+    width: 1240px;
+    height: 126px;
+    background: #FFC773;
+}
+.LOGO{
+    max-width: 290px;
+    max-height: 126px;
+}
+.head_nav{
+    right: 0px;
+}
+.head_buttons{
+    display: flex;
+    margin-top: 38px;
+}
+.head_butt{
+    /* 設定大小 */
+    width: 178px;
+    height: 58px;
+    
+    /* 設定邊框 */
+    border-radius: 50px;
+
+    /* 設定按鍵顏色 */
+    background: #FFEFC7;
+    
+    /* 設定字體位置 */
+    list-style-type: none;
+    text-align: center;
+    line-height: 58px;
+    margin-left: 10px;
+}
+.head_butt_text{
+    font-family: 'Noto Sans TC', sans-serif;
+    text-decoration: none;
+    color: #FF792E;
+}
+.head_butt:hover{
+    background-color: #FF792E;
+    background: #FF792E;
+}    
+.head_butt_text:hover{
+    color: #FFEFC7;
+}
+
+/* 內文設定 */
+.image{
+    position: relative;
+    text-align: center;
+}
+
+.text{
+    position: absolute;
+    text-align: center;
+
+    width: 100%;
+    margin: 10px;
+    bottom: 50%;
+    left: auto;
+    background-color: black;
+    color: blanchedalmond;
+}
+
+/* 設定至頂按鈕 */
+.top_butt{
+    /* 設定按鍵位置 */
+    z-index: 3;
+    right: 10%;
+    bottom: 1%;
+    position: fixed;
+    /* 設定安鍵形狀 */
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    /* 設定按鍵顏色 */
+    background-color: #FF792E;
+    /* 設定按鍵文字 */
+    font-family: 'Noto Sans TC', sans-serif;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    color: FFFFFF, 100%;
+}
+
+/* 日本麻將簡介 */
+.intro{
+    width: 1260px;
+    height: 620px;
+    background-color: #FFEFC7;
+}
+.intro_line{
+    width: 1068px;
+    height: 66px;
+    border-radius: 50px;
+    background-color: #FFC773;
+    align-self: center;
+    text-align: center;
+    line-height: 66px;
+    color: #FFFFFF;
+    margin-left: 86px;
+}
+.intro_INFO{
+    display: flex;
+}
+.intro_PIC{
+    width: 434px;
+    height: 460px;
+    margin-left: 5%;
+}
+
+
+/* 影片 */
+.video_wrapping{
+    margin-left: 70px;
+    margin-bottom: 30px;
+}
+.video{
+    border-radius: 50px 50px 50px 50px;
+}
+
+/* 頁腳設定 */
+.footer{
+    margin: 0;
+    width: 1260px;
+    max-height: 76px;
+    background-color: #FFC773;
+    position: relative;
+}
+.footer{
+    display: flex;
+}
+.foot_buttons{
+    display: flex;
+}
+.foot_butt{
+    width: 140px;
+    height: 36px;
+    list-style-type: none;
+}
+.foot_butt_text{
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #FF792E;
+    text-align: center;
+    line-height: 36px;
+}
+.foot_copyright{
+    margin-left: 300px;
+    margin-top: 30px;
+    width: 420px;
+    height: 76px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    right: 5%;
+    bottom: 50%;
+    color: #FF792E;
+}
