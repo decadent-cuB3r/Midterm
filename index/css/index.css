@@ -232,8 +232,12 @@ a{
     margin: 0px;
     width: 100%;
     background-color: #FFC773;
+
 }
 .footer_container{
+    position: relative;
+    display: flex;
+    margin: auto;
     max-width: 1260px;
     margin-left: auto;
     margin-right: auto;
@@ -244,6 +248,7 @@ a{
 }
 .foot_butt{
     list-style-type: none;
+    padding-top: 10px;
 }
 .foot_butt_text{
     padding: 10px 30px;
@@ -256,10 +261,20 @@ a{
     color: #FFEFC7;
 }
 .foot_copyright{
-    margin-left: 300px;
+    margin-left: 392px;
+    margin-top: 0px;
+    height: 35px;
     width: 420px;
     padding-bottom: 10px;
     font-weight: 400;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #FF792E;
+}
+.logo_bottom{
+    position: absolute;
+    padding-right:0px;
+    right: 15px;
+    top: 12px;
+    width: 253px;
+    height: 117px;
 }
