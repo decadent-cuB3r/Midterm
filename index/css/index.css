@@ -10,7 +10,7 @@ html{
     width: 100%;
     min-height: 100%;
     position: relative;
-    margin-bottom: -50px;
+    /* margin-bottom: -50px; */
 }
 .container{
     max-width: 1240px;
@@ -250,7 +250,10 @@ a{
     font-family: 'Noto Sans TC', sans-serif;
     color: #FF792E;
     text-align: center;
-    line-height: 36px;
+    line-height: 50px;
+}
+.foot_butt_text:hover{
+    color: #FFEFC7;
 }
 .foot_copyright{
     margin-left: 300px;
