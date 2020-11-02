@@ -69,23 +69,17 @@ a{
     border-radius: 50px;
 
     /* 設定按鍵顏色 */
-    background: #FFC773;
-    
+    background-color: #FFEFC7;
     /* 設定字體位置 */
     padding: 10px 15px;
     list-style-type: none;
     text-align: center;
     line-height: 58px;
     margin-left: 10px;
-}
-.head_butt_text{
-    font-family: 'Noto Sans TC', sans-serif;
-    text-decoration: none;
-    color: #FFEFC7;
 }    
 .head_butt_text:hover{
-    color: #FF792E;
-    background-color: #FFEFC7;
+    color: #FFEFC7;
+    background: #FF792E;
 }
 
 /* 內文設定 */
@@ -99,7 +93,6 @@ a{
     text-align: center;
 
     width: 100%;
-    margin: 10px;
     bottom: 50%;
     left: auto;
     background-color: black;
