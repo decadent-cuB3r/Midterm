@@ -259,3 +259,10 @@
     border-width: 35px 0 35px 60.6px;
     border-color: transparent transparent transparent #FF8C4B;
 }
+.about_people{
+    margin-top: 15px;
+    text-align: center;
+    color: #FFEFC7;
+    font-weight: bold;
+    font-size: 30px;
+}
