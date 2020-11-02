@@ -32,8 +32,6 @@ a{
     width: 100%;
     height: 126px;
     background: #FFC773;
-<<<<<<< HEAD
-=======
 }
 .header_container{
     margin: auto;
@@ -41,7 +39,6 @@ a{
     display: flex;
     background: #FFC773;
     justify-content: space-between;
->>>>>>> bdec445bf58ec7e5dab65dbc45c38af80b6eba02
 }
 .LOGO{
     max-width: 290px;
@@ -55,8 +52,6 @@ a{
     margin-top: 38px;
 }
 .head_butt{
-<<<<<<< HEAD
-=======
     list-style-type: none;
     margin-right: 30px;
 }
@@ -65,7 +60,6 @@ a{
     font-family: 'Noto Sans TC', sans-serif;
     text-decoration: none;
     color: #FF792E;
->>>>>>> bdec445bf58ec7e5dab65dbc45c38af80b6eba02
     /* 設定大小 */
     width: 178px;
     height: 58px;
