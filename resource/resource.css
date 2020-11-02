@@ -159,7 +159,7 @@
     top: 550px;
 }
 .about{
- 
+    position: relative;
     max-width: 1240px;
     height: 680px;
     background:  #FFEFC7;
@@ -172,8 +172,6 @@
 .firstline{
     width: 749px;
     height: 50px;
-    left: 0px;
-    top: 18px;
     background: #FFC773;
     border-radius: 0 60px 60px 0;
 }
@@ -187,4 +185,77 @@
     font-size: 30px;
     line-height: 54px;
     color: #FF8C4B;
+}
+.secondline{
+    position: absolute;
+    top: 68px;
+    left: 138px;
+    width: 963px;
+    height: 50px;
+    background: #FFC773;
+    border-radius: 60px;
+}
+.ezra{
+    display: flex;
+}
+.people1{
+    position: absolute;
+    min-width: 229px;
+    min-height: 229px;
+    left: 109px;
+    top: 170px;
+}
+.img1{
+    width: 229px;
+    height: 229px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.squre{
+    position: absolute;
+    width: 723px;
+    height: 200px;
+    right: 104px;
+    top: 185px;
+    background: #FF8C4B;
+    border-radius: 50px;
+}
+.triangle{
+    position: absolute;
+    left: 370px;
+    top: 254px;
+    border-style: solid;
+    border-width: 35px 60.6px 35px 0;
+    border-color: transparent #FF8C4B transparent transparent;
+}
+.img2{
+    width: 229px;
+    height: 229px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.people2{
+    position: absolute;
+    min-width: 229px;
+    min-height: 229px;
+    right: 104px;
+    top: 419px;
+}
+.squre2{
+    position: absolute;
+    left: 109px;
+    top: 434px;
+    position: absolute;
+    width: 723px;
+    height: 200px;
+    background: #FF8C4B;
+    border-radius: 50px;
+}
+.triangle2{
+    position: absolute;
+    right: 365px;
+    top: 502px;
+    border-style: solid;
+    border-width: 35px 0 35px 60.6px;
+    border-color: transparent transparent transparent #FF8C4B;
 }
