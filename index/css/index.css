@@ -1,6 +1,7 @@
 /* 預設框度高度 */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
-body{
+body,
+html{
     background: #FFEFC7;
     height: 100%;
     margin: 0;
@@ -22,8 +23,7 @@ body{
 a{
     text-decoration: none;
 }
-.push,
-.footer{
+.push{
     height: 50px;
 }
 
@@ -228,21 +228,16 @@ a{
 }
 
 /* 頁腳設定 */
-footer{
-    width: 100%;
-    height: 120px;
-    background-color: #FFC773;
-    margin: 0;
-}
 .footer{
     margin: 0px;
     width: 100%;
-    max-height: 100px;
     background-color: #FFC773;
 }
 .footer_container{
     max-width: 1260px;
-    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFC773;
 }
 .foot_buttons{
     display: flex;
@@ -251,7 +246,7 @@ footer{
     list-style-type: none;
 }
 .foot_butt_text{
-    padding: 0 30px;
+    padding: 10px 30px;
     font-family: 'Noto Sans TC', sans-serif;
     color: #FF792E;
     text-align: center;
@@ -259,12 +254,9 @@ footer{
 }
 .foot_copyright{
     margin-left: 300px;
-    margin-top: 30px;
     width: 420px;
-    height: 76px;
+    padding-bottom: 10px;
     font-weight: 400;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    right: 5%;
-    bottom: 50%;
     color: #FF792E;
 }
