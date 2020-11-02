@@ -1,4 +1,16 @@
+/* 預設框度高度 */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+body{
+    background: #FFEFC7;
+    height: 100%;
+    margin: 0;
+}
+.pg_container{
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+    margin-bottom: -50px;
+}
 .container{
     max-width: 1240px;
     min-height: auto;
@@ -10,13 +22,26 @@
 a{
     text-decoration: none;
 }
+.push,
+.footer{
+    height: 50px;
+}
 
 /* 標題設定 */
 .header{
-    display: inline-flex;
-    width: 1240px;
+    width: 100%;
     height: 126px;
     background: #FFC773;
+<<<<<<< HEAD
+=======
+}
+.header_container{
+    margin: auto;
+    width: 1260px;
+    display: flex;
+    background: #FFC773;
+    justify-content: space-between;
+>>>>>>> bdec445bf58ec7e5dab65dbc45c38af80b6eba02
 }
 .LOGO{
     max-width: 290px;
@@ -30,6 +55,17 @@ a{
     margin-top: 38px;
 }
 .head_butt{
+<<<<<<< HEAD
+=======
+    list-style-type: none;
+    margin-right: 30px;
+}
+.head_butt_text{
+    /* 文字設定 */
+    font-family: 'Noto Sans TC', sans-serif;
+    text-decoration: none;
+    color: #FF792E;
+>>>>>>> bdec445bf58ec7e5dab65dbc45c38af80b6eba02
     /* 設定大小 */
     width: 178px;
     height: 58px;
@@ -199,25 +235,30 @@ a{
 }
 
 /* 頁腳設定 */
-.footer{
-    margin: 0px;
-    max-width: 1260px;
-    max-height: 120px;
+footer{
+    width: 100%;
+    height: 120px;
     background-color: #FFC773;
-    position: relative;
+    margin: 0;
 }
 .footer{
-    display: flex;
+    margin: 0px;
+    width: 100%;
+    max-height: 120px;
+    background-color: #FFC773;
+}
+.footer_container{
+    max-width: 1260px;
+    margin: 0;
 }
 .foot_buttons{
     display: flex;
 }
 .foot_butt{
-    width: 140px;
-    height: 36px;
     list-style-type: none;
 }
 .foot_butt_text{
+    padding: 0 30px;
     font-family: 'Noto Sans TC', sans-serif;
     color: #FF792E;
     text-align: center;
