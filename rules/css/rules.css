@@ -5,7 +5,7 @@ h2{
     margin: 0;
 }
 /* 基本規則標題 */
-.rules_head{
+#rules_head{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -27,12 +27,12 @@ h2{
     text-align: center;
 }
 /* 基本規則 */
-.rules_basic{
+#rules_basic{
     display: flex;
     justify-content: space-around;
 }
 /* 基本規則圖例 */
-.rules_basic_wrapper{
+#rules_basic_wrapper{
     background: #FFC773;
     border-radius: 30px;
     width: 400px;
@@ -90,6 +90,6 @@ h2{
     margin-bottom: auto;
 }
 /* 和牌條件 */
-_rules_comb{
+#rules_comb{
     
 }
