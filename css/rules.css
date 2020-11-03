@@ -126,15 +126,28 @@ h2{
 }
 .comb_circle{
     /* 設定圓形 */
-    height: 250px;
+    height: 210px;
     width: 250px;
     border-radius: 50%;
     background-color: #FFC773;
+    padding-top: 40px;
     /* 設定文字 */
     text-align: center;
     color: #FF8C4B;
     font-size: 30px;
-    }
+}
+.comb_circle_2{
+    /* 設定圓形 */
+    height: 225px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: #FFC773;
+    padding-top: 25px;
+    /* 設定文字 */
+    text-align: center;
+    color: #FF8C4B;
+    font-size: 30px;
+}
 #rules_comb_text{
     display: flex;
     justify-content: space-around;

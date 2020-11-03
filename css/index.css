@@ -59,7 +59,7 @@ a{
     /* 文字設定 */
     font-family: 'Noto Sans TC', sans-serif;
     text-decoration: none;
-    color: #FF792E;
+    color: #FFEFC7;
     /* 設定大小 */
     width: 178px;
     height: 58px;
@@ -69,7 +69,7 @@ a{
     border-radius: 50px;
 
     /* 設定按鍵顏色 */
-    background-color: #FFEFC7;
+
     /* 設定字體位置 */
     padding: 10px 15px;
     list-style-type: none;
@@ -78,8 +78,8 @@ a{
     margin-left: 10px;
 }    
 .head_butt_text:hover{
-    color: #FFEFC7;
-    background: #FF792E;
+    color: #FF792E;
+    background-color: #FFEFC7;
 }
 
 /* 內文設定 */
@@ -89,6 +89,7 @@ a{
 }
 
 .text{
+    background-color:rgb(255, 255, 255, 0.5);
     position: absolute;
     text-align: center;
     margin-left: auto;
@@ -96,9 +97,6 @@ a{
     height: 306px;
     bottom: 25%;
     left: 25%;
-    background-color: #FFFFFF;
-    opacity: 50%;
-    color: #000;
 }
 #text{
     position: absolute;
@@ -106,8 +104,10 @@ a{
     margin-left: auto;
     width: 639px;
     height: 306px;
-    bottom: 25%;
-    left: 25%;
+    top: 145px;
+    mix-blend-mode: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 64px;
     color: #000;
 }
 .image_logo{
