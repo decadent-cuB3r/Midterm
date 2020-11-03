@@ -231,13 +231,13 @@ h2{
 }
 .Q_btn{
     margin-right: 30px;
-    /* 三角形產生器 */
+    /* 三角形產生器*/
     width: 0px;
     height: 0px;
     border-left: 20px solid #FF8C4B;
     border-right: 20px solid #FF8C4B;
     border-top: 30px solid #FFEFC7;
-}    
+}
 .A_section{
     display: none;
     align-items: center;
