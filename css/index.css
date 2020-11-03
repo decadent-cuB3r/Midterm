@@ -19,7 +19,7 @@ html{
     margin-right: auto;
     background-color: #FFEFC7;
 }
-/* 我不喜歡A TAG有底線所以寫了這條 */
+/* 我不喜歡A-TAG有底線所以寫了這條 */
 a{
     text-decoration: none;
 }
@@ -139,7 +139,7 @@ a{
     text-align: center;
     line-height: 50px;
     text-decoration: none;
-    color: FFFFFF, 100%;
+    color: #FFC773;
 }
 
 /* 麻將是什麼？簡介 */
