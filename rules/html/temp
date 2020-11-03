@@ -1,42 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>麻雀的窩！</title>
-    <link rel="stylesheet" href="/index/css/normalize.css">
-    <link rel="stylesheet" href="/index/css/index.css">
-    <link rel="stylesheet" href="/resource/resource.css">
-    <link rel="stylesheet" href="/rules/css/rules.css">
-    <script src="index/js/jQuery.js"></script>
-    <script src="index/js/index.js"></script>
-</head>
-
-<body>
-    <div class="pg_container">
-        <div class="top_butt">
-            <a href="#">TOP</a>
-        </div>
-        <header class="header">
-            <div class="header_container">
-                <div class="LOGO">
-                    <!-- <h1>LOGO</h1> -->
-                    <img src="/index/images/LOGO.png" alt="麻雀巢" class="LOGO">
-                </div>
-                <!-- <p>"麻將不再是運氣遊戲！"</p> -->
-                <nav class="head_nav">
-                    <ul class="head_buttons">
-                        <li class="head_butt"><a class="head_butt_text" href="/index.html">首頁</a></li>
-                        <li class="head_butt"><a class="head_butt_text" href="/rules/html/rules.html">規則介紹</a></li>
-                        <li class="head_butt"><a class="head_butt_text" href="">役種一覽</a></li>
-                        <li class="head_butt"><a class="head_butt_text" href="/resource/resource.html">相關資源</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-
-        <!-- 網頁內容起始 -->
         <div class="container">
             <div class="container">
                 <div id="rules_head">
@@ -157,30 +118,7 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- 網頁內容終點 -->
-
             </div>
             <!-- 新增push區塊將footer至於頁底 -->
             <div class="push"></div>
         </div>
-
-        <footer class="footer">
-            <div class="footer_container">
-                <nav class="footer">
-                    <ul class="foot_buttons">
-                        <li class="foot_butt"><a class="foot_butt_text" href="">關於我們</a></li>
-                        <li class="foot_butt"><a class="foot_butt_text" href="">隱私政策</a></li>
-                        <li class="foot_butt"><a class="foot_butt_text" href="">了解我們</a></li>
-                        <li class="foot_butt"><a class="foot_butt_text" href="">加入我們</a></li>
-                    </ul>
-                </nav>
-                <img src="/index/images/LOGO.png" alt="logo" class="logo_bottom">
-            </div>
-            <p class="foot_copyright">
-                Copyright @ Nihonmajiun.All right reserved
-            </p>
-        </footer>
-</body>
-
-</html>
