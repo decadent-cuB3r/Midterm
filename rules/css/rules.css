@@ -91,5 +91,103 @@ h2{
 }
 /* 和牌條件 */
 #rules_comb{
-    
+    min-height: 500px;
+}
+.head_deco{
+    display: flex;
+    justify-content: space-between;
+}
+.left_deco{
+    height: 52px;
+    width: 330px;
+    background-color: #FF8C4B;
+    border-radius: 0 30px 30px  0;
+}
+.right_deco{
+    height: 52px;
+    width: 330px;
+    background-color: #FF8C4B;
+    border-radius: 30px 0 0 30px;
+}
+.deco_text{
+    color: #FF8C4B;
+    font-size: 30px;
+    line-height: 52px;
+    padding: 0;
+    margin: 0;
+}
+/* #rules_comb_wrapper{
+
+} */
+.rules_comb_circle{
+    display: flex;
+    justify-content: space-around;
+}
+.comb_circle{
+    /* 設定圓形 */
+    margin-top: 20px;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: #FFC773;
+    /* 設定文字 */
+    text-align: center;
+    color: #FF8C4B;
+    font-size: 30px;
+    }
+#rules_comb_text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* 設定外框 */
+    width: 1150px;
+    height: 90px;
+    background-color: #FF8C4B;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.rules_comb_text{
+    /* 設定文字 */
+    color: #ffffff;
+    font-size: 20px;
+}
+#comb_ex{
+    background-color: #FFC773;
+    border-radius: 50px;
+    width: 1050px;
+    height: 280px;
+    align-items: center;
+    display: flex; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.comb_ex_text{
+    min-width: 250px;
+    height: 250px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 30px;
+    color: #FF792E;
+}
+#comb_ex_line{
+    height: 180px;
+    width: 6px;
+    background-color: #ffefc7;
+    margin-right: 100px;
+}
+#comb_ex_text{
+    font-size: 30px;
+    color: #FF792E;
+    line-height: 40px;
+}
+#comb_ex_img_text{
+    font-size: 23px;
+    color: #FF792E;
+    margin-left: 80px;
+    line-height: 30px; 
 }
