@@ -2,7 +2,7 @@ $(document).ready(function(){
 
     $('.Q_btn').click(function(){
         var Q_btn_id = $(this).attr('data-Aid');
-        $('#'+Q_btn_id).slideToggle(300);
+        $('#'+Q_btn_id).slideToggle(500);
         // $('.Q_btn').css({
         //         "margin-right": "30px",
         //         /* 三角形產生器 */

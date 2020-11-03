@@ -260,6 +260,8 @@
     border-color: transparent transparent transparent #FF8C4B;
 }
 .about_people{
+    /* 先不要出現文字 */
+    display: none;
     margin-top: 15px;
     text-align: center;
     color: #FFEFC7;
