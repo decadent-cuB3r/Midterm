@@ -22,7 +22,7 @@ h2{
     width: 240px;
     height: 80px;
     /* 設定文字 */
-    color: white;
+    color: #FFEFC7;
     line-height: 80px;
     text-align: center;
 }
@@ -94,6 +94,7 @@ h2{
     min-height: 500px;
 }
 .head_deco{
+    margin: 50px 0 50px 0;
     display: flex;
     justify-content: space-between;
 }
@@ -125,7 +126,6 @@ h2{
 }
 .comb_circle{
     /* 設定圓形 */
-    margin-top: 20px;
     height: 250px;
     width: 250px;
     border-radius: 50%;
@@ -190,4 +190,54 @@ h2{
     color: #FF792E;
     margin-left: 80px;
     line-height: 30px; 
+}
+/* Q&A section */
+#QA_head{
+    display: flex;
+    margin: 50px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.Q_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1068px;
+    min-height: 80px;
+    border-radius: 30px;
+    background-color: #FF8C4B;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.Q{
+    color: #FFEFC7;
+    font-size: 30px;
+    margin-left: 30px;
+}
+.Q_btn{
+    margin-right: 30px;
+    /* 三角形產生器 */
+    width: 0px;
+    height: 0px;
+    border-left: 20px solid #FF8C4B;
+    border-right: 20px solid #FF8C4B;
+    border-top: 30px solid #FFEFC7;
+}    
+.A_section{
+    align-items: center;
+    width: 1068px;
+    min-height: 80px;
+    border-radius: 30px;
+    border: 3px solid #FF8C4B;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+}
+.A{
+    color: #FF8C4B;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
