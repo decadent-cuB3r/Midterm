@@ -91,12 +91,34 @@ a{
 .text{
     position: absolute;
     text-align: center;
-
-    width: 100%;
-    bottom: 50%;
-    left: auto;
-    background-color: black;
-    color: blanchedalmond;
+    margin-left: auto;
+    width: 639px;
+    height: 306px;
+    bottom: 25%;
+    left: 25%;
+    background-color: #FFFFFF;
+    opacity: 50%;
+    color: #000;
+}
+#text{
+    position: absolute;
+    text-align: center;
+    margin-left: auto;
+    width: 639px;
+    height: 306px;
+    bottom: 25%;
+    left: 25%;
+    color: #000;
+}
+.image_logo{
+    position: absolute;
+    text-align: center;
+    margin-left: auto;
+    width: 639px;
+    height: 306px;
+    bottom: 0%;
+    left: 0%;
+    color: #000;
 }
 
 /* 設定至頂按鈕 */
