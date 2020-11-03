@@ -222,7 +222,7 @@ h2{
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 }
 .Q{
     color: #FFEFC7;
@@ -238,6 +238,15 @@ h2{
     border-right: 20px solid #FF8C4B;
     border-top: 30px solid #FFEFC7;
 }
+.Q_btn:hover{
+    margin-right: 30px;
+    /* 三角形產生器*/
+    width: 0px;
+    height: 0px;
+    border-left: 20px solid #FF8C4B;
+    border-right: 20px solid #FF8C4B;
+    border-top: 30px solid  #FFC773;
+}
 .A_section{
     display: none;
     align-items: center;
@@ -248,6 +257,7 @@ h2{
     background-color: #ffffff;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
 }
 .A{
     color: #FF8C4B;
