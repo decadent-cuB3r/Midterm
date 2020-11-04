@@ -259,16 +259,18 @@ a{
 
 /* 頁腳設定 */
 .footer{
+
     margin: 0px;
-    width: 100%;
+    width: 100% auto;
     background-color: #FFC773;
 
 }
 .footer_container{
-    position: relative;
+
+    justify-content: space-between;
     display: flex;
     margin: auto;
-    max-width: 1260px;
+    max-width: 1240px;
     margin-left: auto;
     margin-right: auto;
     background-color: #FFC773;
@@ -291,17 +293,16 @@ a{
     color: #FFEFC7;
 }
 .foot_copyright{
-    margin-left: 392px;
+    margin-left: 400px;
     margin-top: 0px;
     height: 35px;
     width: 420px;
     padding-bottom: 10px;
     font-weight: 400;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     color: #FF792E;
 }
 .logo_bottom{
-    position: absolute;
     padding-right:0px;
     right: 15px;
     top: 12px;
