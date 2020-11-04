@@ -4,10 +4,21 @@ $(document).ready(function () {
     //init scrollMagic
     var controller = new ScrollMagic.Controller();
 
-    //create a scene
-    var ourScene = new ScrollMagic.Scene({
-        triggerElement = '#intro'
+    //create first scene
+    var firstScene = new ScrollMagic.Scene({
+        triggerElement: '#aside'
     })
-    .setClassToggle('#intro', 'fadeIn').addTo(controller);
+        .setClassToggle('#aside', 'grow').addTo(controller);
 
+    //create first scene
+    var firstScene = new ScrollMagic.Scene({
+        triggerElement: '#aside'
+    })
+        .setClassToggle('#aside', 'grow').addTo(controller);
+
+    //create second scene
+    var secondScene = new ScrollMagic.Scene({
+        triggerElement: '#intro'
+    })
+        .setClassToggle('#intro', 'fade-in').addTo(controller);
 });

@@ -144,7 +144,7 @@ a{
 
 /* 麻將是什麼？簡介 */
 .aside{
-    max-width: 1240px;
+    max-width: 1068px;
     min-height: 500px;
     align-items: center;
 }
@@ -154,6 +154,13 @@ a{
     background-color: #FFC773;
     margin-left: 86px;
     margin-top: 20px;
+    width: 0%;
+    opacity: 0;
+    transition: 1.5s;
+}
+.aside_title.grow{
+    opacity: 1;
+    width: 100%;
 }
 .aside_title_wrapping{
     padding: 10px;
@@ -188,10 +195,10 @@ a{
     height: 550px;
     background-color: #FFEFC7;
     opacity: 0;
-    transform: translateY(100px);
+    transform: translateY(30px);
     transition: all 1s ease-out;
 }
-.intro.fadeIn{
+.intro.fade-in{
     opacity: 1;
     transform: translateY(0);
 }
