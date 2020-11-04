@@ -88,12 +88,6 @@ a{
     width: 200px;
     height: 58px;
     font-size: 25px;
-    
-    /* 設定邊框 */
-
-
-    /* 設定按鍵顏色 */
-
     /* 設定字體位置 */
     padding: 10px 15px;
     list-style-type: none;
@@ -101,11 +95,12 @@ a{
     line-height: 58px;
     margin-left: 10px;
 }   
-ul.head_buttons2 a:hover{
+/* 下面兩個是他們的hover */
+ul.head_buttons a:hover{
     color: #FF792E;
     background-color: #FFEFC7;
 }
-ul.head_buttons a:hover{
+ul.head_buttons2 a:hover{
     color: #FF792E;
     background-color: #FFEFC7;
 }
@@ -285,6 +280,8 @@ ul.head_buttons li:hover>ul { /* 滑鼠滑入展開次選單*/
 }
 .intro_PIC{
     margin-left: 5%;
+    width: 600px;
+    border-radius: 30px;
 }
 .intro_INFO_text{
     width: 500px;
