@@ -125,7 +125,7 @@ a{
 .top_butt{
     /* 設定按鍵位置 */
     z-index: 3;
-    right: 10%;
+    right: 13%;
     bottom: 5%;
     position: fixed;
     /* 設定安鍵形狀 */
@@ -134,9 +134,9 @@ a{
     border-radius: 100px;
     /* 設定按鍵顏色 */
     background-color: #FF792E;
-    box-shadow: 5px 5px 5px grey;
+    box-shadow: 3px 3px 3px rgb(124, 74, 27);
     /* 設定按鍵文字 */
-    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Itim';
     text-align: center;
     line-height: 50px;
     text-decoration: none;
