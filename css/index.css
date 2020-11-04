@@ -259,14 +259,15 @@ a{
 
 /* 頁腳設定 */
 .footer{
+
     margin: 0px;
-    width: 100%;
+    width: 100% auto;
     background-color: #FFC773;
 }
 .footer_container{
     display: flex;
     margin: auto;
-    max-width: 1260px;
+    max-width: 1240px;
     margin-left: auto;
     margin-right: auto;
     background-color: #FFC773;
@@ -295,7 +296,7 @@ a{
     padding: 0;
     padding-bottom: 10px;
     font-weight: 400;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     color: #FF792E;
 }
 .logo_bottom{

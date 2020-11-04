@@ -6,6 +6,7 @@ h2{
 }
 /* 基本規則標題 */
 #rules_head{
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-around;
