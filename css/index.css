@@ -13,7 +13,7 @@ html{
     /* margin-bottom: -50px; */
 }
 .container{
-    max-width: 1240px;
+    width: 1240px;
     min-height: 100%;
     margin-left: auto;
     margin-right: auto;
