@@ -150,7 +150,7 @@ h2{
 }
 #rules_comb_text{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     /* 設定外框 */
     width: 1150px;
@@ -191,7 +191,8 @@ h2{
     height: 180px;
     width: 6px;
     background-color: #ffefc7;
-    margin-right: 100px;
+    margin-right: 70px;
+    margin-left: 30px;
 }
 #comb_ex_text{
     font-size: 30px;

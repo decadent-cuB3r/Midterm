@@ -23,7 +23,7 @@
     left: 27px;
     top: 81px;
     background-color: #FF8C4B;
-    border: 5px solid #FF8C4B;
+    border: 3px solid #FF8C4B;
     transform: rotate(-0.11deg);
 }
 .line2{
@@ -33,7 +33,7 @@
     top: 81px;
     right: 27px;
     background-color: #FF8C4B;
-    border: 5px solid #FF8C4B;
+    border: 3px solid #FF8C4B;
     transform: rotate(-0.11deg);
 }
 .game_resource{
