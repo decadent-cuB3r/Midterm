@@ -21,14 +21,14 @@ $(document).ready(function () {
     //     })
     // }
     
-    //init scrollMagic
-    var controller = new ScrollMagic.Controller();
+    // //init scrollMagic
+    // var controller = new ScrollMagic.Controller();
 
-    //create first scene
-    var firstScene = new ScrollMagic.Scene({
-        triggerElement: '#rules_comb'
-    })
-        .setClassToggle('#rules_comb', 'rollOut').addto(controller);
+    // //create first scene
+    // var firstScene = new ScrollMagic.Scene({
+    //     triggerElement: '#rules_comb'
+    // })
+    //     .setClassToggle('#rules_comb', 'rollOut').addto(controller);
 
     $('.Q_btn').click(function () {
         var Q_btn_id = $(this).attr('data-Aid');
