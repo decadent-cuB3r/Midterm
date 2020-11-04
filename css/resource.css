@@ -261,6 +261,7 @@
 .about_people{
     /* 先不要出現文字 */
     display: none;
+    font-family: 'Itim';
     margin-top: 15px;
     text-align: center;
     color: #FFEFC7;
