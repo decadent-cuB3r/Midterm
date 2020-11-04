@@ -30,7 +30,7 @@ a{
 /* 標題設定 */
 .header{
     width: 100%;
-    height: 126px;
+    height: 110px;
     background: #FFC773;
 }
 .header_container{
@@ -54,6 +54,7 @@ a{
 .head_butt{
     list-style-type: none;
     margin-right: 30px;
+    position: relative;
 }
 .head_butt_text{
     /* 文字設定 */
@@ -77,11 +78,76 @@ a{
     line-height: 58px;
     margin-left: 10px;
 }    
-.head_butt_text:hover{
+/* 下拉式導覽列 */
+.head_butt_text2{
+    /* 文字設定 */
+    font-family: 'Noto Sans TC', sans-serif;
+    text-decoration: none;
+    color: #FFEFC7;
+    /* 設定大小 */
+    width: 200px;
+    height: 58px;
+    font-size: 25px;
+    
+    /* 設定邊框 */
+
+
+    /* 設定按鍵顏色 */
+
+    /* 設定字體位置 */
+    padding: 10px 15px;
+    list-style-type: none;
+    text-align: center;
+    line-height: 58px;
+    margin-left: 10px;
+}   
+ul.head_buttons2 a:hover{
+    color: #FF792E;
+    background-color: #FFEFC7;
+}
+ul.head_buttons a:hover{
     color: #FF792E;
     background-color: #FFEFC7;
 }
 
+ul.head_buttons li:hover>a{
+    color: #FF792E;
+    background-color: #FFEFC7;
+}
+
+ul.head_buttons ul {
+    list-style-type: none;
+    background-color: #FFC773;
+    position: absolute;
+    z-index: 99;
+    left: -40px;
+    top: 100%;
+    width: 180px;
+    height: 232px;
+}
+
+ul.head_buttons #nav2 {
+    background-color: #FFC773;
+    position: absolute;
+    z-index: 99;
+    left: -40px;
+    top: 100%;
+    width: 180px;
+    height: 116px;
+}
+
+
+ul.head_buttons ul li:last-child {
+    border-bottom: none;
+}
+/* 滑鼠滑入時顯示 */
+ul.head_buttons ul { /*隱藏次選單*/
+    display: none;
+}
+
+ul.head_buttons li:hover>ul { /* 滑鼠滑入展開次選單*/
+    display: block;
+}
 /* 內文設定 */
 .image{
     position: relative;
