@@ -32,7 +32,14 @@ $(document).ready(function () {
 
     $('.Q_btn').click(function () {
         var Q_btn_id = $(this).attr('data-Aid');
-        $('#' + Q_btn_id).slideToggle(500)
+        $('#Q' + Q_btn_id).toggleClass(function(){
+            if ($(this).parent().is('.Q_btn.unclicked')) {
+                return 'clicked';
+            }else{
+                return 0;
+            }
+        })
+        $('#A' + Q_btn_id).slideToggle(500);
     })
     $('.rules_info').hide().slideDown(2000);
     $('#rules_basic_wrapper').hide().fadeIn(2000)

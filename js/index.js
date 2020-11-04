@@ -1,6 +1,10 @@
 $(document).ready(function () {
     $('.text').hide().fadeIn(2000);
 
+    $('.top_butt').click(function(){
+        
+    })
+
     //init scrollMagic
     var controller = new ScrollMagic.Controller();
 

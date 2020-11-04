@@ -235,9 +235,16 @@ h2{
     /* 三角形產生器*/
     width: 0px;
     height: 0px;
+}
+.unclicked{
     border-left: 20px solid #FF8C4B;
     border-right: 20px solid #FF8C4B;
-    border-top: 30px solid #FFEFC7;
+    border-top: 30px solid #FFEFC7;    
+}
+.clicked{
+    border-left: 20px solid #FF8C4B;
+    border-right: 20px solid #FF8C4B;
+    border-bottom: 30px solid #FFEFC7;
 }
 .Q_btn:hover{
     margin-right: 30px;
