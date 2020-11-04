@@ -21,24 +21,28 @@ $(document).ready(function () {
     //     })
     // }
     
-    // //init scrollMagic
-    // var controller = new ScrollMagic.Controller();
-
-    // //create first scene
-    // var firstScene = new ScrollMagic.Scene({
-    //     triggerElement: '#rules_comb'
-    // })
-    //     .setClassToggle('#rules_comb', 'rollOut').addto(controller);
+    
 
     $('.Q_btn').addClass('unclicked').click(function () {
         var btn_id = $(this).attr('data-Aid');
         $('#A' + btn_id).slideToggle(500);
-    }).toggleClass('clicked');
+    });
 
     $('.rules_info').hide().slideDown(2000);
+    
     $('#rules_basic_wrapper').hide().fadeIn(2000);
+    
     $('.comb').flip({
         trigger: 'click',
         reverse: 'true'
     });
+    
+    //init scrollMagic
+    var controller = new ScrollMagic.Controller();
+
+    //create first scene
+    var firstScene = new ScrollMagic.Scene({
+        triggerElement: '#rules_comb'
+    })
+        .setClassToggle('#rules_comb', 'rollOut').addto(controller);
 });
