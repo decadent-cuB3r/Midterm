@@ -14,6 +14,8 @@
     <script src="./js/rules.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
 </head>
 
 <body>
@@ -89,24 +91,38 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="comb">
-                    <div class="comb_text">
+                <div id="comb">
+                    <div class="comb">
                         <h3>順子</h3>
+                        <div class="front"><img src="./images/3backside.jpg" alt="" width="122px" height="60px"></div>
+                        <div class="back"><img src="./images/numline1.jpg" alt="順子"></div>
+                    </div>
+                    <div class="comb">
                         <h3>順子</h3>
-                        <h3>刻子</h3>
-                        <h3>刻子</h3>
-                        <h3>將</h3>
-                        <h3>將</h3>
+                        <div class="front"><img src="./images/3backside.jpg" alt="刻子" width="122px" height="60px"></div>
+                        <div class="back"><img src="./images/numline2.jpg" alt="順子"></div>
                     </div>
-                    <div class="comb_img">
-                        <img src="" alt="順子">
-                        <img src="" alt="順子">
-                        <img src="" alt="刻子">
-                        <img src="" alt="刻子">
-                        <img src="" alt="將">
-                        <img src="" alt="將">
+                    <div class="comb">
+                        <h3>刻子</h3>
+                        <div class="front"><img src="./images/3backside.jpg" alt="刻子" width="122px" height="60px"></div>
+                        <div class="back"><img src="./images/triple1.jpg" alt="刻子"></div>
                     </div>
-                </div> -->
+                    <div class="comb">
+                        <h3>刻子</h3>
+                        <div class="front"><img src="./images/3backside.jpg" alt="刻子" width="122px" height="60px"></div>
+                        <div class="back"><img src="./images/triple2.jpg" alt="刻子" width="122px" height="60px"></div>
+                    </div>
+                    <div class="comb">
+                        <h3>將</h3>
+                        <div class="front"><img src="./images/2backside.jpg" alt="" height="60px" width="82px"></div>
+                        <div class="back"><img src="./images/double1.jpg" alt="將"></div>
+                    </div>
+                    <div class="comb">
+                        <h3>將</h3>
+                        <div class="front"><img src="./images/2backside.jpg" alt="" width="82px" height="60px"></div>
+                        <div class="back"><img src="./images/double2.jpg" alt="將"></div>
+                    </div>
+                </div>
             </div>
             <div id="rules_comb">
                 <div id="Head1_trigger" class="head_deco">
@@ -153,11 +169,11 @@
                         </div>
                         <div id="comb_ex_line"></div>
                         <div id="comb_description">
-                            <div id="comb_ex_text">
+                            <div class="comb_ex_text">
                                 面子=順子或刻子或槓子 對子=兩張相同牌<br>
                                 七種對子，4張相同牌不能當作2組對子。
                             </div>
-                            <img id="comb_ex_img" src="./images/no_same.png" alt="國士無雙" width="551px" height="63px">
+                            <img id="comb_ex_img" src="./images/no_same.png" alt="國士無雙" width="470px" height="50px">
                             <div id="comb_ex_img_text">其中1種一對，剩下12種各一張</div>
                         </div>
                     </div>
@@ -171,14 +187,14 @@
                 </div>
                 <div class="Q_section">
                     <h1 class="Q">Q1. 爲什麼不能和牌？</h1>
-                    <div id="Q1" class="Q_btn unclicked" data-Aid="1"></div>
+                    <div id="Q1" class="Q_btn" data-Aid="1"></div>
                 </div>
                 <div id="A1" class="A_section">
                     <h1 class="A">A. 不滿足和牌要求 或 沒有役 或 振聽</h1>
                 </div>
                 <div class="Q_section">
-                    <h1 id="Q2" class="Q">Q2. 何謂振聽？</h1>
-                    <div id="Q2" class="Q_btn unclicked" data-Aid="2"></div>
+                    <h1 class="Q">Q2. 何謂振聽？</h1>
+                    <div id="Q2" class="Q_btn" data-Aid="2"></div>
                 </div>
                 <div id="A2" class="A_section">
                     <h1 class="A">A. 捨牌振聽：聽的牌被自己打過（永久）
@@ -188,52 +204,52 @@
                 </div>
                 <div class="Q_section">
                     <h1 class="Q">Q3. 一巡的定義？</h1>
-                    <div id="Q3" class="Q_btn unclicked" data-Aid="3"></div>
+                    <div id="Q3" class="Q_btn" data-Aid="3"></div>
                 </div>
                 <div id="A3" class="A_section">
                     <h1 class="A">A. 從你打出一張牌開始計算，直到你打出下一張牌之前，為一巡</h1>
                 </div>
                 <div class="Q_section">
                     <h1 class="Q">Q4. 什麼時候會連莊？</h1>
-                    <div id="Q4" class="Q_btn unclicked" data-Aid="4"></div>
+                    <div id="Q4" class="Q_btn" data-Aid="4"></div>
                 </div>
                 <div id="A4" class="A_section">
                     <h1 class="A">A. 1.流局時親家聽牌(有流局滿貫時，也是看親家是否聽牌)
                         2.親家和牌</h1>
                 </div>
-                <div class="Q_section">
+                <!-- <div class="Q_section">
                     <h1 class="Q"></h1>
-                    <div id="Q5" class="Q_btn unclicked" data-Aid="5"></div>
+                    <div id="Q5" class="Q_btn" data-Aid="5"></div>
                 </div>
                 <div id="A5" class="A_section">
                     <h1 class="A"></h1>
-                </div>
+                </div> -->
             </div>
             <!-- 新增push區塊將footer至於頁底 -->
             <div class="push"></div>
         </div>
         <!-- 網頁內容終點 -->
-
-        <footer class="footer">
-            <div class="footer_container">
-                <nav class="footer">
-                    <ul class="foot_buttons">
-                        <li class="foot_butt"><a class="foot_butt_text" href="">關於我們</a></li>
-                        <li class="foot_butt"><a class="foot_butt_text" href="">隱私政策</a></li>
-                        <li class="foot_butt"><a class="foot_butt_text" href="">了解我們</a></li>
-                        <li class="foot_butt"><a class="foot_butt_text"
-                                href="https://docs.google.com/spreadsheets/d/1AgDMCj38eE5akdBQ6pGeYFO0mdRPGMlwYvP7vzTPEe0/edit#gid=0">加入我們</a>
-                        </li>
-                    </ul>
-                </nav>
-                <a href="./index.html">
-                    <img src="./images/LOGO.png" alt="logo" href="./index.html" class="logo_bottom">
-                </a>
-            </div>
-            <p class="foot_copyright">
-                Copyright @ Nihonmajiun.All right reserved
-            </p>
-        </footer>
+    </div>
+    <footer class="footer">
+        <div class="footer_container">
+            <nav class="footer">
+                <ul class="foot_buttons">
+                    <li class="foot_butt"><a class="foot_butt_text" href="">關於我們</a></li>
+                    <li class="foot_butt"><a class="foot_butt_text" href="">隱私政策</a></li>
+                    <li class="foot_butt"><a class="foot_butt_text" href="">了解我們</a></li>
+                    <li class="foot_butt"><a class="foot_butt_text"
+                            href="https://docs.google.com/spreadsheets/d/1AgDMCj38eE5akdBQ6pGeYFO0mdRPGMlwYvP7vzTPEe0/edit#gid=0">加入我們</a>
+                    </li>
+                </ul>
+                <p class="foot_copyright">
+                    Copyright @ Nihonmajiun.All right reserved
+                </p>
+            </nav>
+            <a href="./index.html">
+                <img src="./images/LOGO.png" alt="logo" href="./index.html" class="logo_bottom">
+            </a>
+        </div>
+    </footer>
 </body>
 
 </html>

@@ -30,18 +30,15 @@ $(document).ready(function () {
     // })
     //     .setClassToggle('#rules_comb', 'rollOut').addto(controller);
 
-    $('.Q_btn').click(function () {
-        var Q_btn_id = $(this).attr('data-Aid');
-        $('#Q' + Q_btn_id).toggleClass(function(){
-            if ($(this).parent().is('.Q_btn.unclicked')) {
-                return 'clicked';
-            }else{
-                return 0;
-            }
-        })
-        $('#A' + Q_btn_id).slideToggle(500);
-    })
-    $('.rules_info').hide().slideDown(2000);
-    $('#rules_basic_wrapper').hide().fadeIn(2000)
+    $('.Q_btn').addClass('unclicked').click(function () {
+        var btn_id = $(this).attr('data-Aid');
+        $('#A' + btn_id).slideToggle(500);
+    }).toggleClass('clicked');
 
+    $('.rules_info').hide().slideDown(2000);
+    $('#rules_basic_wrapper').hide().fadeIn(2000);
+    $('.comb').flip({
+        trigger: 'click',
+        reverse: 'true'
+    });
 });

@@ -13,7 +13,7 @@ html{
     /* margin-bottom: -50px; */
 }
 .container{
-    width: 1240px;
+    width: 1260px;
     min-height: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -262,10 +262,8 @@ a{
     margin: 0px;
     width: 100%;
     background-color: #FFC773;
-
 }
 .footer_container{
-    position: relative;
     display: flex;
     margin: auto;
     max-width: 1260px;
@@ -274,14 +272,16 @@ a{
     background-color: #FFC773;
 }
 .foot_buttons{
+    padding: 0;
+    margin-top: 10px;
     display: flex;
 }
 .foot_butt{
     list-style-type: none;
-    padding-top: 10px;
+    padding: 0;
 }
 .foot_butt_text{
-    padding: 10px 30px;
+    margin-right: 30px;
     font-family: 'Noto Sans TC', sans-serif;
     color: #FF792E;
     text-align: center;
@@ -291,20 +291,16 @@ a{
     color: #FFEFC7;
 }
 .foot_copyright{
-    margin-left: 392px;
-    margin-top: 0px;
-    height: 35px;
     width: 420px;
+    padding: 0;
     padding-bottom: 10px;
     font-weight: 400;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #FF792E;
 }
 .logo_bottom{
-    position: absolute;
-    padding-right:0px;
-    right: 15px;
-    top: 12px;
-    width: 253px;
-    height: 117px;
+    padding-top: 30px;
+    width: 160px;
+    height: 70px;
+    align-self: end;
 }
