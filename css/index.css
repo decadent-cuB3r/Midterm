@@ -49,6 +49,7 @@ li {
 .header_container {
     margin: auto;
     width: 1260px;
+    height: 110px;
     display: flex;
     background: #FFC773;
     justify-content: space-between;
