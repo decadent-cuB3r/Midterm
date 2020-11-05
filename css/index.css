@@ -1,61 +1,97 @@
 /* 預設框度高度 */
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
-body,
-html{
+body, html {
     background: #FFEFC7;
     height: 100%;
     margin: 0;
 }
-.pg_container{
+
+.pg_container {
     width: 100%;
     min-height: 100%;
     position: relative;
     /* margin-bottom: -50px; */
 }
-.container{
+
+.container {
     width: 1260px;
     min-height: 100%;
     margin-left: auto;
     margin-right: auto;
     background-color: #FFEFC7;
 }
+
 /* 我不喜歡A-TAG有底線所以寫了這條 */
-a{
+
+a {
     text-decoration: none;
 }
-.push{
+
+/* 去除li的style */
+
+li {
+    list-style-type: none;
+}
+
+.push {
     height: 50px;
 }
 
 /* 標題設定 */
-.header{
+
+.header {
     width: 100%;
     height: 126px;
     background: #FFC773;
 }
-.header_container{
+
+.header_container {
     margin: auto;
     width: 1260px;
     display: flex;
     background: #FFC773;
     justify-content: space-between;
 }
-.LOGO{
+
+.LOGO {
     max-width: 290px;
     max-height: 126px;
 }
-.head_nav{
+
+.head_nav {
     right: 0px;
 }
-.head_buttons{
+
+.head_buttons {
     display: flex;
     margin-top: 38px;
 }
-.head_butt{
+
+.head_butt {
     list-style-type: none;
     margin-right: 30px;
 }
-.head_butt_text{
+.head_sublist {
+	position: absolute;
+	background-color: #e5e9dc;
+	margin: 0;
+	padding: 0;
+	display: none;
+}
+.head_sublist_item {
+	list-style: none;
+	margin-right: 5px;
+}
+.head_sublist_item a{
+    display: block;
+	color: #617140;
+	text-decoration: none;
+	padding: 10px 20px;
+	border: 3px solid #e5e9dc;
+	border-bottom: none;
+}
+.head_butt_text {
     /* 文字設定 */
     font-family: 'Noto Sans TC', sans-serif;
     text-decoration: none;
@@ -64,32 +100,33 @@ a{
     width: 178px;
     height: 58px;
     font-size: 25px;
-    
     /* 設定邊框 */
     border-radius: 50px;
-
     /* 設定按鍵顏色 */
-
     /* 設定字體位置 */
     padding: 10px 15px;
     list-style-type: none;
     text-align: center;
     line-height: 58px;
     margin-left: 10px;
-}    
-.head_butt_text:hover{
+}
+
+.head_butt_text.head_sublist_item:hover {
     color: #FF792E;
     background-color: #FFEFC7;
 }
 
+
+
+
 /* 內文設定 */
-.image{
+.image {
     position: relative;
     text-align: center;
 }
 
-.text{
-    background-color:rgb(255, 255, 255, 0.5);
+.text {
+    background-color: rgb(255, 255, 255, 0.5);
     position: absolute;
     text-align: center;
     margin-left: auto;
@@ -98,7 +135,8 @@ a{
     bottom: 25%;
     left: 25%;
 }
-#text{
+
+#text {
     position: absolute;
     text-align: center;
     margin-left: auto;
@@ -110,7 +148,8 @@ a{
     font-size: 64px;
     color: #000;
 }
-.image_logo{
+
+.image_logo {
     position: absolute;
     text-align: center;
     margin-left: auto;
@@ -122,7 +161,8 @@ a{
 }
 
 /* 設定至頂按鈕 */
-.top_butt{
+
+.top_butt {
     /* 設定按鍵位置 */
     z-index: 3;
     right: 10%;
@@ -144,12 +184,14 @@ a{
 }
 
 /* 麻將是什麼？簡介 */
-.aside{
+
+.aside {
     max-width: 1068px;
     min-height: 500px;
     align-items: center;
 }
-.aside_title{
+
+.aside_title {
     width: 1068px;
     height: 480px;
     background-color: #FFC773;
@@ -159,22 +201,26 @@ a{
     opacity: 0;
     transition: 1.5s;
 }
-.aside_title.grow{
+
+.aside_title.grow {
     opacity: 1;
     width: 100%;
 }
-.aside_title_wrapping{
+
+.aside_title_wrapping {
     padding: 10px;
     max-height: 35px;
 }
-.aside_title_text{
+
+.aside_title_text {
     color: #FFFFFF;
     text-align: center;
     margin-top: 5px;
     font-size: 30px;
     max-height: 35px;
 }
-.aside_article{
+
+.aside_article {
     /* 設定框架 */
     width: 990px;
     height: 320px;
@@ -191,7 +237,8 @@ a{
 }
 
 /* 日本麻將簡介 */
-.intro{
+
+.intro {
     width: 1260px;
     height: 550px;
     background-color: #FFEFC7;
@@ -199,11 +246,13 @@ a{
     transform: translateY(30px);
     transition: all 1s ease-out;
 }
-.intro.fade-in{
+
+.intro.fade-in {
     opacity: 1;
     transform: translateY(0);
 }
-.intro_line{
+
+.intro_line {
     width: 1068px;
     height: 66px;
     border-radius: 50px;
@@ -214,27 +263,30 @@ a{
     color: #FFFFFF;
     margin-left: 86px;
 }
-.intro_INFO{
+
+.intro_INFO {
     display: flex;
 }
-.intro_PIC{
+
+.intro_PIC {
     margin-left: 5%;
 }
-.intro_INFO_text{
+
+.intro_INFO_text {
     width: 500px;
     height: 400px;
     background-color: #FFDC85;
     border-radius: 40px;
     margin-left: 10px;
 }
-.intro_INFO_title{
+
+.intro_INFO_title {
     /* 框架設定 */
     width: 440px;
     height: 70px;
     border-radius: 30px;
     background-color: #FFC773;
     margin-left: 30px;
-
     /* 文字設定 */
     color: #FFFFFF;
     font-family: 'Noto Sans TC', sans-serif;
@@ -242,29 +294,34 @@ a{
     line-height: 70px;
     font-size: 28px;
 }
-.intro_INFO_article{
+
+.intro_INFO_article {
     font-family: 'Noto Sans TC', sans-serif;
     text-align: center;
     line-height: 40px;
     font-size: 24px;
 }
+
 /* 影片 */
-.video_wrapping{
+
+.video_wrapping {
     margin-left: 70px;
     margin-bottom: 30px;
 }
-.video{
+
+.video {
     border-radius: 50px 50px 50px 50px;
 }
 
 /* 頁腳設定 */
-.footer{
 
+.footer {
     margin: 0px;
     width: 100% auto;
     background-color: #FFC773;
 }
-.footer_container{
+
+.footer_container {
     display: flex;
     justify-content: space-between;
     margin: auto;
@@ -273,26 +330,31 @@ a{
     margin-right: auto;
     background-color: #FFC773;
 }
-.foot_buttons{
+
+.foot_buttons {
     padding: 0;
     margin-top: 10px;
     display: flex;
 }
-.foot_butt{
+
+.foot_butt {
     list-style-type: none;
     padding: 0;
 }
-.foot_butt_text{
+
+.foot_butt_text {
     margin-right: 30px;
     font-family: 'Noto Sans TC', sans-serif;
     color: #FF792E;
     text-align: center;
     line-height: 50px;
 }
-.foot_butt_text:hover{
+
+.foot_butt_text:hover {
     color: #FFEFC7;
 }
-.foot_copyright{
+
+.foot_copyright {
     width: 420px;
     padding: 0;
     padding-bottom: 10px;
@@ -300,7 +362,8 @@ a{
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     color: #FF792E;
 }
-.logo_bottom{
+
+.logo_bottom {
     padding-top: 30px;
     width: 160px;
     height: 70px;
