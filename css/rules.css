@@ -219,6 +219,7 @@ h2{
 }
 /* Q&A section */
 #QA_head{
+    font-family: 'Itim', cursive;
     display: flex;
     margin: 50px 0;
     align-items: center;
@@ -238,6 +239,7 @@ h2{
     margin-bottom: 0px;
 }
 .Q{
+    font-family: 'Itim';
     color: #FFEFC7;
     font-size: 30px;
     margin-left: 30px;
@@ -280,6 +282,7 @@ h2{
     margin-top: 20px;
 }
 .A{
+    font-family: 'Itim';
     color: #FF8C4B;
     max-width: 1000px;
     margin-left: auto;

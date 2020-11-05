@@ -65,12 +65,26 @@
     left: 89px;
     top: 84px;
 }
+.pic{width:321px; height:321px;overflow:hidden;}
+
+.pic img{transform:scale(1,1);transition: all 0.5s ease-out;}
+
+.pic .game_1{transform:scale(1,1);transition: all 0.5s ease-out;}
+
+.pic img:hover{transform:scale(1.1,1.1);}
+
+.pic .game_1:hover{transform:scale(1.1,1.1);}
+
+.pic .game_3{transform:scale(1,1);transition: all 0.5s ease-out;}
+
+.pic .game_3:hover{transform:scale(1.1,1.1);}
+
 .game1{
     position: absolute;
-    width: 321px;
-    height: 321px;
-    left: 0px;
-    top: 0px;
+    width: 300px;
+    height: 300px;
+    left: 18px;
+    top: 18px;
 }
 .game2{
     position: absolute;
@@ -97,7 +111,7 @@
     width: 60px;
     height: 35px;
     left: 220px;
-    top: 420px;
+    top: 430px;
     font-size: 30px;
     line-height: 35px;
     color: #FF792E;
@@ -107,7 +121,7 @@
     width: 60px;
     height: 35px;
     left: 590px;
-    top: 420px;
+    top: 430px;
     font-size: 30px;
     line-height: 35px;
     color: #FF792E;
@@ -117,7 +131,7 @@
     width: 60px;
     height: 35px;
     right: 220px;
-    top: 420px;
+    top: 430px;
     font-size: 30px;
     line-height: 35px;
     color: #FF792E;
@@ -131,31 +145,37 @@
 .web1{
     top: 214px;
     left: 89px;
+    width: 321px;
+    height: 321px;
 }
 .web2{
     top: 214px;
+    width: 321px;
+    height: 321px;
 }
 .web3{
     top: 214px;
     right: 89px;
+    width: 321px;
+    height: 321px;
 }
 .word4{
     height: 34px;
     width: 286px;
     left: 145px;
-    top: 550px;
+    top: 560px;
 }
 .word5{
     height: 34px;
     width: 286px;
     left: 530px;
-    top: 550px;
+    top: 560px;
 }
 .word6{
     height: 34px;
     width: 286px;
     right: 25px;
-    top: 550px;
+    top: 560px;
 }
 .about{
     position: relative;
@@ -261,6 +281,7 @@
 .about_people{
     /* 先不要出現文字 */
     display: none;
+    font-family: 'Itim';
     margin-top: 15px;
     text-align: center;
     color: #FFEFC7;
