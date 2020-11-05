@@ -73,25 +73,6 @@ li {
     margin-right: 30px;
     position: relative;
 }
-.head_sublist {
-	position: absolute;
-	background-color: #e5e9dc;
-	margin: 0;
-	padding: 0;
-	display: none;
-}
-.head_sublist_item {
-	list-style: none;
-	margin-right: 5px;
-}
-.head_sublist_item a{
-    display: block;
-	color: #617140;
-	text-decoration: none;
-	padding: 10px 20px;
-	border: 3px solid #e5e9dc;
-	border-bottom: none;
-}
 .head_butt_text {
     /* 文字設定 */
     font-family: 'Noto Sans TC', sans-serif;
@@ -155,14 +136,14 @@ ul.head_buttons ul {
     height: 232px;
 }
 
-ul.head_buttons #nav2 {
+.sublist_nav{
     background-color: #FFC773;
     position: absolute;
     z-index: 99;
     left: -40px;
     top: 100%;
     width: 180px;
-    height: 116px;
+    max-height: 116px;
 }
 
 
@@ -222,7 +203,7 @@ ul.head_buttons li:hover>ul { /* 滑鼠滑入展開次選單*/
 
 .top_butt {
     /* 設定按鍵位置 */
-    z-index: 3;
+    z-index: 333;
     right: 13%;
     bottom: 5%;
     position: fixed;
@@ -239,6 +220,10 @@ ul.head_buttons li:hover>ul { /* 滑鼠滑入展開次選單*/
     line-height: 50px;
     text-decoration: none;
     color: #FFC773;
+
+    opacity: 0;
+    transition: 1s;
+    transform: translateY(100px);
 }
 
 /* 麻將是什麼？簡介 */
@@ -305,7 +290,7 @@ ul.head_buttons li:hover>ul { /* 滑鼠滑入展開次選單*/
     transition: all 1s ease-out;
 }
 
-.intro.fade-in {
+.fade-in {
     opacity: 1;
     transform: translateY(0);
 }

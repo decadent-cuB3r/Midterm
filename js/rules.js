@@ -30,7 +30,7 @@ $(document).ready(function () {
 
     $('.rules_info').hide().slideDown(2000);
     
-    $('#rules_basic_wrapper').hide().fadeIn(2000);
+    $('#rules_basic_wrapper').hide().fadeIn(3000);
     
     $('.comb').flip({
         trigger: 'hover',

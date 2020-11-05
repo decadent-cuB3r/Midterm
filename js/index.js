@@ -4,15 +4,15 @@ $(document).ready(function () {
     $('.top_butt').on('click', function (e) {
         e.preventDefault();
         $('html,body').animate({ // 有些瀏覽器只支援html，有些只支援body 所以兩個都寫進去
-          scrollTop: 0,
+            scrollTop: 0,
         }, 700)
-      });
+    });
 
 
-    $('.head_butt').hover(function(){
-        $(this).children('.sublist__nav').slideDown('fast');
-    }, function(){
-        $(this).children('sublist__nav').slideUp('slow');
+    $(".head_butt").hover(function () {
+        $(this).children(".sublist__nav").slideDown('fast');
+    }, function () {
+        $(this).children("sublist__nav").slideUp('slow');
     });
 
     //init scrollMagic
@@ -29,4 +29,22 @@ $(document).ready(function () {
         triggerElement: '#intro'
     })
         .setClassToggle('#intro', 'fade-in').addTo(controller);
+
+    //create third scene
+    var secondScene = new ScrollMagic.Scene({
+        triggerElement: '#aside'
+    })
+        .setClassToggle('.top_butt', 'fade-in').addTo(controller);
+
+    //create third scene
+    var secondScene = new ScrollMagic.Scene({
+        triggerElement: '#comb'
+    })
+        .setClassToggle('.top_butt', 'fade-in').addTo(controller);
+
+    //create third scene
+    var secondScene = new ScrollMagic.Scene({
+        triggerElement: '#top_butt_trigger'
+    })
+        .setClassToggle('.top_butt', 'fade-in').addTo(controller);
 });
