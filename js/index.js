@@ -8,6 +8,13 @@ $(document).ready(function () {
         }, 700)
       });
 
+
+    $('.head_butt').hover(function(){
+        $(this).children('.sublist__nav').slideDown('fast');
+    }, function(){
+        $(this).children('sublist__nav').slideUp('slow');
+    });
+
     //init scrollMagic
     var controller = new ScrollMagic.Controller();
 
