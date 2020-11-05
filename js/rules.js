@@ -33,7 +33,7 @@ $(document).ready(function () {
     $('#rules_basic_wrapper').hide().fadeIn(2000);
     
     $('.comb').flip({
-        trigger: 'click',
+        trigger: 'hover',
         reverse: 'true'
     });
     
